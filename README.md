@@ -24,12 +24,12 @@ If you want to add products yourself, create an user and, in the code with these
 
 ![Before Changes](https://res.cloudinary.com/djmmemi6j/image/upload/v1653558635/Screenshot_2022-05-26_104747_oxxqhe.png)
 
-Turn this ⬆️ into this ⬇️
+Turn this ⬆️ into this ➡️
 ![After Changes](https://res.cloudinary.com/djmmemi6j/image/upload/v1653558635/Screenshot_2022-05-26_104828_tbqd2t.png)
 
 2. `cofee-shop/views/partials/navbar.ejs`
 
 ![Before Changes](https://res.cloudinary.com/djmmemi6j/image/upload/v1653559193/Screenshot_2022-05-26_105804_vpystk.png)
 
-Turn this ⬆️ into this ⬇️
+Turn this ⬆️ into this ➡️
 ![After Changes](https://res.cloudinary.com/djmmemi6j/image/upload/v1653559193/Screenshot_2022-05-26_105925_h0wf9b.png)
