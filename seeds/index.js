@@ -6,8 +6,9 @@ if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 }
 const adminId = process.env.ADMIN_ID;
+const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/onetwotea";
 
-mongoose.connect("mongodb://localhost:27017/onetwotea");
+mongoose.connect(dbUrl);
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
