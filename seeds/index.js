@@ -2,6 +2,11 @@ const mongoose = require("mongoose");
 const Product = require("../models/product");
 const allProducts = require("./allProducts");
 
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
+const adminId = process.env.ADMIN_ID;
+
 mongoose.connect("mongodb://localhost:27017/onetwotea");
 
 const db = mongoose.connection;
@@ -23,7 +28,7 @@ const seedDB = async () => {
           filename: "OneTwoTea/photo-1504630083234-14187a9df0f5_mgpazu",
         },
       ],
-      owner: "6288e744b7e404e639e5f8f0",
+      owner: adminId,
       description:
         "It does not matter where you are from or how you feel, there is always peace in a strong cup of coffee.",
     });
