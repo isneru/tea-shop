@@ -1,7 +1,7 @@
-## [Coffee Shop](https://vast-garden-39328.herokuapp.com/)
+## [Tea Shop](https://vast-garden-39328.herokuapp.com/)
 
 - The main goal of this project is to code a mockup website for upcoming projects.
-- It is also based around this "newborn" local coffee shop at Porto, Portugal.
+- It is also based around this "newborn" local tea shop at Porto, Portugal.
 
 ## Install dependencies
 
