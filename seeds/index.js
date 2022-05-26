@@ -25,8 +25,8 @@ const seedDB = async () => {
       price: product.price,
       images: [
         {
-          url: "https://res.cloudinary.com/djmmemi6j/image/upload/v1653530707/OneTwoTea/photo-1504630083234-14187a9df0f5_mgpazu.jpg",
-          filename: "OneTwoTea/photo-1504630083234-14187a9df0f5_mgpazu",
+          url: "https://res.cloudinary.com/djmmemi6j/image/upload/v1653577468/OneTwoTea/nathan-dumlao-8yBQQqH3q8Q-unsplash_cq3oio.jpg",
+          filename: "OneTwoTea/nathan-dumlao-8yBQQqH3q8Q-unsplash_cq3oio",
         },
       ],
       owner: adminId,
