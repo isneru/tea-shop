@@ -1,7 +1,7 @@
-## [Coffee Shop](https://vast-garden-39328.herokuapp.com/)
+## [Tea Shop](https://vast-garden-39328.herokuapp.com/)
 
 - The main goal of this project is to code a mockup website for upcoming projects.
-- It is also based around this "newborn" local coffee shop at Porto, Portugal.
+- It is also based around this "newborn" local tea shop at Porto, Portugal.
 
 ## Install dependencies
 
@@ -20,7 +20,7 @@ Run `mongod` in the terminal, then on the project folder you can run ./seeds/ind
 
 If you want to add products yourself, create an user and, in the code with these paths:
 
-1. `coffee-shop/middleware.js`
+1. `tea-shop/middleware.js`
 
 ![Before Changes](https://res.cloudinary.com/djmmemi6j/image/upload/v1653558635/Screenshot_2022-05-26_104747_oxxqhe.png)
 
@@ -29,7 +29,7 @@ Turn this ⬆️ into this ➡️
 
 ---
 
-2. `cofee-shop/views/partials/navbar.ejs`
+2. `tea/views/partials/navbar.ejs`
 
 ![Before Changes](https://res.cloudinary.com/djmmemi6j/image/upload/v1653559193/Screenshot_2022-05-26_105804_vpystk.png)
 
